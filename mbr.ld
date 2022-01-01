@@ -5,7 +5,5 @@ SECTIONS
     .boot :
     {
         *(.*)
-        /*. = 0x1fe;
-        SHORT(0xaa55)*/
     }
 }
