@@ -1,0 +1,4 @@
+#!/bin/sh
+
+dd if=/dev/zero of=disk.img bs=1k count=10000
+mkfs.fat -F16 disk.img
